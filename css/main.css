@@ -1,7 +1,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
+    color: #241E12;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -57,7 +57,8 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: 'IM Fell English', serif;
+    background-image: url("file:///Users/carriecocklin/Documents/LAE/img/noisy-texture-100x100-o4-d14-c-e2dbc4-t0.png");
 }
 
 .wrapper {
@@ -70,22 +71,21 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background-image: url("file:///Users/carriecocklin/Documents/LAE/img/noisy-texture-100x100-o4-d14-c-e2dbc4-t0.png");
 }
 
 .title {
-    color: white;
+    color: #241E12;
 }
 
 /* ==============
@@ -108,7 +108,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #999999;
 }
 
 nav a:hover,
